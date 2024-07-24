@@ -1,6 +1,27 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/fortify/compare/v1.21.1...1.x)
+## [Unreleased](https://github.com/laravel/fortify/compare/v1.22.0...1.x)
+
+## [v1.22.0](https://github.com/laravel/fortify/compare/v1.21.5...v1.22.0) - 2024-07-22
+
+* [1.x] Rehash password if required when user uses two factor by [@gdebrauwer](https://github.com/gdebrauwer) in https://github.com/laravel/fortify/pull/557
+* [1.x] Add TwoFactorAuthenticationFailed event by [@antergos98](https://github.com/antergos98) in https://github.com/laravel/fortify/pull/558
+
+## [v1.21.5](https://github.com/laravel/fortify/compare/v1.21.4...v1.21.5) - 2024-07-04
+
+* [1.x] Allow `redirect()->intended()` responses to be resolved via the Container by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/fortify/pull/551
+
+## [v1.21.4](https://github.com/laravel/fortify/compare/v1.21.3...v1.21.4) - 2024-06-27
+
+* [1.x] Use available `$name` property from `SessionGuard` if the value exists by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/fortify/pull/553
+
+## [v1.21.3](https://github.com/laravel/fortify/compare/v1.21.2...v1.21.3) - 2024-05-08
+
+* [1.x] Ensure logout route is authenticated by [@timacdonald](https://github.com/timacdonald) in https://github.com/laravel/fortify/pull/536
+
+## [v1.21.2](https://github.com/laravel/fortify/compare/v1.21.1...v1.21.2) - 2024-04-25
+
+* [1.x] Bacon QR 3.0 support by [@eshimischi](https://github.com/eshimischi) in https://github.com/laravel/fortify/pull/534
 
 ## [v1.21.1](https://github.com/laravel/fortify/compare/v1.21.0...v1.21.1) - 2024-03-19
 
