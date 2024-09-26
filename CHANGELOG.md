@@ -1,6 +1,23 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/fortify/compare/v1.22.0...1.x)
+## [Unreleased](https://github.com/laravel/fortify/compare/v1.24.2...1.x)
+
+## [v1.24.2](https://github.com/laravel/fortify/compare/v1.24.1...v1.24.2) - 2024-09-16
+
+* Adding context length configuration for 2FA to ensure better security standards by [@MattLoyeD](https://github.com/MattLoyeD) in https://github.com/laravel/fortify/pull/568
+
+## [v1.24.1](https://github.com/laravel/fortify/compare/v1.24.0...v1.24.1) - 2024-09-03
+
+* [1.x] Add `X-Retry-After` to `/user/confirm-password/status` response by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/fortify/pull/565
+
+## [v1.24.0](https://github.com/laravel/fortify/compare/v1.23.0...v1.24.0) - 2024-08-20
+
+* [1.x] Support case insensitive password resets by [@mattmcdonald-uk](https://github.com/mattmcdonald-uk) in https://github.com/laravel/fortify/pull/562
+* Dispatch RecoveryCodeReplaced Event by [@stephenjude](https://github.com/stephenjude) in https://github.com/laravel/fortify/pull/564
+
+## [v1.23.0](https://github.com/laravel/fortify/compare/v1.22.0...v1.23.0) - 2024-08-02
+
+* Fire ValidTwoFactorAuthenticationCodeProvided Event when 2FA session is authenticated by [@stefanzweifel](https://github.com/stefanzweifel) in https://github.com/laravel/fortify/pull/559
 
 ## [v1.22.0](https://github.com/laravel/fortify/compare/v1.21.5...v1.22.0) - 2024-07-22
 
